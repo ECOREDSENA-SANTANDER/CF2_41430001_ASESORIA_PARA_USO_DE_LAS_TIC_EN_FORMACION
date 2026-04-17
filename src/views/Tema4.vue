@@ -5,7 +5,18 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Tema 4
+      h1 Herramientas tecnológicas para orientar procesos formativos
+    
+    
+    
+    
+    separador
+    #t_4_1.titulo-segundo.mb-5
+      h2 4.1 Ruta de diseño para orientar una experiencia mediada
+
+
+
+
 
 
 </template>

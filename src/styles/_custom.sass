@@ -1,30 +1,449 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 45%
+    right: 75%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float 3s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 30%
+    right: 35%
+  &-3
+    position: absolute
+    top: 65%
+    right: 10%
+    animation: float 2.5s ease-in-out infinite alternate
 
-@keyframes float1
+@keyframes float
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
   
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 45% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 450px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: white  
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
- 
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #53159B
+  background-color: #e8e8e8
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #53159B !important
+
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
+
+.barra-avance__boton--regresar span 
+  color: $color-sistema-texto !important
+
+.cen
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+////////////////////////////////////////////////////
+
+
+.bloque-texto-g.color-primario
+  background-color: #0A388B
+  border-radius: 0px 49px 49px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+  .bloque-texto-g__texto 
+    position: relative
+    width: 65%
+    border-radius: 0px
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+
+.cajon.color-secundario
+  background-color: #B5F9FC
+  &:before 
+    background-color: #0CEBF3
+
+.bg1
+  background-color: #B5C7E7
+
+.bg2
+  background-color: #C4FDDB
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    background-color: #CBB8E1
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+
+.bloque1
+  background-color: #0CEBF3
+  border-radius: 49px 0px 0px 49px 
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+  .bloque-texto-g__texto 
+    position: relative
+    width: 65%
+    border-radius: 0px
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+
+.bg3
+  background-color: #B5C7E7
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+
+.titulo
+  display: inline-flex
+  align-items: center
+  width: fit-content
+  max-width: 100%
+  position: relative
+  &__icono
+    background-color: #4A1A7A
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 25px
+    min-width: 40px
+    height: 100%
+    border-radius: 0px
+    position: relative
+    z-index: 0
+  &__texto 
+    background-color: #CBB8E1
+    display: flex
+    align-items: center
+    gap: 14px
+    padding: 5px 20px 5px 7px
+    border-radius: 5px
+    z-index: 0
+    margin-left: -43px
+    img
+      width: 30px
+      height: 30px
+      flex-shrink: 0
+      position: relative
+      z-index: 1
+
+.bg4
+  background-color: #0D47AE
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: $black
+  font-style: normal !important
+.tarjeta-audio.color-acento-botones
+  border-color: #53159B
+.tarjeta-audio 
+  border: 3px solid
+  padding: 1.65em 0.7em 0.7em 1.5em
+  border-radius: 30px
+  min-height: 100px
+.audio.color-acento-contenido .audio__btn, .tarjeta-audio.color-acento-contenido .audio__btn, .tarjeta-dialogo.color-acento-contenido .audio__btn 
+  background-color: #53159B
+.tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
+  background: #E2E2E0
+
+.acordion__accion__btn--a
+  background-color: #3EF989
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #CBB8E1
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: black
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #3EF989
+  i, 
+    color: black !important
+.activ
+  .acordion__activo 
+    background-color: #B5C7E7 !important
+    transition: all 0.3s ease-out
+
+.cajon.color-acento-contenido
+  background-color: #CBB8E1
+  &:before 
+    background-color: #53159B
+
+
+.sob1
+  margin-left: -15% 
+  margin-bottom: -0px
+  z-index: 2
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 15rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 50px)
+    height: 100%
+    background-color: #B5F9FC
+    @media only screen and (max-width: 767px)
+      width: calc( 100% - 0px)
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      width: calc( 100% - 0px)
+  @media (max-width: 1000px)
+    padding-right: 1rem
+.crd--first
+  &::before
+    background-color: #B5C7E7
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+    background-color: #B5C7E7
+
+.bg5
+  background-color: #CBB8E1
+  border-radius: 20px
+
+.fondo1
+  background: url('../assets/curso/tema2/fondo1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center
+.bg9
+  background-color: #0CEBF3
+  border-radius: 10px
+
+.bg6
+  background-color: #0D47AE
+  border-radius: 18px 0px 0px 18px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 18px 0px 0px 18px
+.bg7
+  background-color: #CBB8E1
+  border-radius: 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 18px 18px 0px
+.bg8
+  background-color: #53159B
+  border-radius: 0px 18px 18px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 20px
+
+.cajon.color-acento-botones
+  background-color: #C4FDDB
+  &:before 
+    background-color: #3EF989
+
+.tarjeta.color-acento-botones
+  background-color: #B5F9FC
+  border-radius: 20px
+.fa-leaf
+  position: relative
+  padding-left: 0.4em
+.fa-leaf::before
+  content: "•"
+  position: absolute
+  font-size: 20px
+  left: 0
+  top: -0.2em
+
+.bg31
+  background-color: #C4FDDB
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+
+.tit
+  background-image: url("../assets/curso/tema3/tit.png")!important
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center
+  width: fit-content
+
+.bg10
+  background-color: #0D47AE
+  border-radius: 20px 0px 0px 20px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+.bg11
+  background-color: #B5F9FC
+  border-radius: 0px 20px 20px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////TABLAS//////////////////////////////////////////
+
+.tabla-a thead 
+    border-top: 7px solid #045E61
+    color: black
+    background-color: #E2E2E0
+.tabla-a th
+  border-color: #E2E2E0
+  text-align: left
+.tabla-a
+  table th
+    padding: 23px 20px
+  table td 
+    padding: 23px 20px
+.tabla-a
+  table
+    width: 100%
+    table-layout: auto
+    th, td
+      overflow-wrap: break-word
+      white-space: normal
+      vertical-align: top
+      text-align: left
+
+.tabla-a.tab1
+  table th
+    padding: 23px 20px
+  table td 
+    padding: 23.5px 20px
+  td:nth-child(1)
+    //vertical-align: middle
+    //text-align: center
+  th:nth-child(1)
+    width: 26%
+  th:nth-child(2)
+    width: 37%
+  th:nth-child(3)
+    width: 37%
+
+.tabla-a.tab2
+  th:nth-child(1)
+    width: 20%
+  td:nth-child(1)
+    font-weight: bold
+  th:nth-child(2)
+    width: 20%
+  th:nth-child(3)
+    width: 20%
+  th:nth-child(4)
+    width: 20%
+  th:nth-child(5)
+    width: 20%
+
+.tabla-a.tab3
+  table th
+    padding: 24px 20px
+  table td 
+    padding: 25.7px 20px
+  td:nth-child(1)
+    //vertical-align: middle
+    //text-align: center
+  th:nth-child(1)
+    width: 26%
+  th:nth-child(2)
+    width: 37%
+  th:nth-child(3)
+    width: 37%
