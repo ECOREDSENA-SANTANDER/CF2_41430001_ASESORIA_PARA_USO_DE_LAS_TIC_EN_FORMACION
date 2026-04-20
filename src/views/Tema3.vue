@@ -9,7 +9,7 @@
 
     .bg1.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right")
+        .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0(data-aos="fade-right")
           img(src='@/assets/curso/tema3/1.png', alt='')
         .col-lg-7(data-aos="fade-left")
           .p-4
@@ -22,7 +22,7 @@
         img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
         h3.mb-0 Roles del tutor en entornos mediados por TIC 
     
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .bg1.p-lg-5.p-4.d-none.d-md-block
           ImagenInfografica.color-acento-botones
@@ -45,7 +45,6 @@
                   p.mb-0 Acompaña comprensión
             .tarjeta.color-acento-botones.p-4(x="81%" y="15%" numero="2")
               .h5.mb-2 Rol social
-              p.mb-0 
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
@@ -61,7 +60,6 @@
                   p.mb-0 Fortalece cohesión
             .tarjeta.color-acento-botones.p-4(x="10%" y="94.5%" numero="3")
               .h5.mb-2 Rol de gestión
-              p.mb-0 
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
@@ -80,7 +78,6 @@
                   p.mb-0 Realiza seguimiento
             .tarjeta.color-acento-botones.p-4(x="90%" y="94.5%" numero="4")
               .h5.mb-2 Rol técnico
-              p.mb-0 
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
@@ -118,7 +115,6 @@
                   p.mb-0 Acompaña comprensión
             .tarjeta.color-acento-botones.p-4(x="94%" y="35%" numero="2")
               .h5.mb-2 Rol social
-              p.mb-0 
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
@@ -134,7 +130,6 @@
                   p.mb-0 Fortalece cohesión
             .tarjeta.color-acento-botones.p-4(x="20%" y="88%" numero="3")
               .h5.mb-2 Rol de gestión
-              p.mb-0 
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
@@ -153,7 +148,6 @@
                   p.mb-0 Realiza seguimiento
             .tarjeta.color-acento-botones.p-4(x="79%" y="88%" numero="4")
               .h5.mb-2 Rol técnico
-              p.mb-0 
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
@@ -173,7 +167,7 @@
     #t_3_1.titulo-segundo.mb-5
       h2 3.1 Roles del tutor
 
-    p.mb-4 En entornos mediados por TIC, el tutor asume un rol más amplio que resolver dudas: se convierte en mediador del aprendizaje, responsable de diseñar experiencias, sostener la interacción y asegurar que el proceso avance con claridad y sentido. Esto se logra mediante cuatro roles complementarios:
+    p.mb-4(data-aos="fade-left") En entornos mediados por TIC, el tutor asume un rol más amplio que resolver dudas: se convierte en mediador del aprendizaje, responsable de diseñar experiencias, sostener la interacción y asegurar que el proceso avance con claridad y sentido. Esto se logra mediante cuatro roles complementarios:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -218,12 +212,12 @@
     .cajon.color-secundario.p-lg-5.p-4.mb-5(data-aos="fade-left")
       p.mb-0 En conjunto, estos cuatro roles garantizan que las TIC actúen verdaderamente como mediadoras del aprendizaje: no se limitan a transmitir contenidos, sino que posibilitan experiencias formativas intencionadas, con interacción significativa, acompañamiento permanente y evidencias claras del logro de los aprendizajes. Por tanto, en la siguiente tabla se presenta un resumen funcional de estos roles:
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 3.
           | Resumen funcional de los roles del tutor
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-8
         .tabla-a.tab3
           table
@@ -249,7 +243,7 @@
                 td Técnico
                 td ¿Cómo se accede?
                 td Facilita el uso tecnológico.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema3/5.png' alt='AvatarTop')
 
 
@@ -257,7 +251,7 @@
     #t_3_2.titulo-segundo.mb-5
       h2 3.2 Competencias del tutor y buenas prácticas en entornos mediados por TIC
     
-    p.mb-5 En entornos virtuales o combinados, las competencias del tutor se concretan en prácticas que sostienen el aprendizaje y contribuyen a reducir la deserción. Tres ejes resultan fundamentales: claridad en la ruta formativa, acompañamiento constante y retroalimentación que impulsa la mejora del desempeño.
+    p.mb-5(data-aos="fade-right") En entornos virtuales o combinados, las competencias del tutor se concretan en prácticas que sostienen el aprendizaje y contribuyen a reducir la deserción. Tres ejes resultan fundamentales: claridad en la ruta formativa, acompañamiento constante y retroalimentación que impulsa la mejora del desempeño.
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
@@ -273,7 +267,7 @@
           img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/8.svg' alt='AvatarTop')
           p.mb-0 Otra práctica esencial es la retroalimentación oportuna y focalizada. Más que emitir juicios generales, el tutor reconoce avances y orienta mejoras priorizando pocos aspectos de alto impacto. Esto evita la sobrecarga de información y favorece la motivación.
 
-    .bloque-texto-g.color-primario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
+    .bloque-texto-g.color-primario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/9.png')})`}"
       )
@@ -291,9 +285,9 @@
     #t_3_3.titulo-segundo.mb-5
       h2 3.3 Acompañamiento y retroalimentación mediada
 
-    p.mb-5 La retroalimentación mediada por TIC es un componente central del aprendizaje, no una acción posterior ni aislada; puede presentarse en distintos formatos (comentarios escritos en plataformas, anotaciones en documentos, audios, videos o rúbricas). Su valor radica en su carácter formativo: debe ser clara, específica, basada en criterios y orientada a la mejora.
+    p.mb-5(data-aos="fade-right") La retroalimentación mediada por TIC es un componente central del aprendizaje, no una acción posterior ni aislada; puede presentarse en distintos formatos (comentarios escritos en plataformas, anotaciones en documentos, audios, videos o rúbricas). Su valor radica en su carácter formativo: debe ser clara, específica, basada en criterios y orientada a la mejora.
     
-    p.mb-5 Una retroalimentación efectiva responde a las siguientes preguntas clave:
+    p.mb-5(data-aos="fade-right") Una retroalimentación efectiva responde a las siguientes preguntas clave:
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5(data-aos="fade-left")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
@@ -311,7 +305,7 @@
     
     .bg1.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right")
+        .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0(data-aos="fade-right")
           img(src='@/assets/curso/tema3/10.png', alt='')
         .col-lg-7(data-aos="fade-left")
           .p-4
@@ -321,11 +315,11 @@
     .tit.p-2.d-flex.mb-5(data-aos="fade-left")
       h4.mb-0.ps-5.pe-3 Ejemplo de realimentación clara y efectiva
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema3/11.png', alt='')
 
-    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-0(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg10.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4.my-3(src='@/assets/curso/tema3/12.svg')

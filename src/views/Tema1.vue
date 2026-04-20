@@ -9,7 +9,7 @@
     
     .bg1.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right")
+        .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0(data-aos="fade-right")
           img(src='@/assets/curso/tema1/1.png', alt='')
         .col-lg-7(data-aos="fade-left")
           .p-4
@@ -59,23 +59,23 @@
         .bg3.p-4.h-100.cen
           p.mb-0.text-center La promoción de aprendizajes verificables.
     
-    .cajon.color-secundario.p-lg-5.p-4.mb-5(data-aos="fade-left")
+    .cajon.color-secundario.p-lg-5.p-4.mb-5(data-aos="fade-right")
       p.mb-0 Una mediación bien diseñada contribuye a reducir la incertidumbre del aprendiz mediante instrucciones claras, rutas de aprendizaje estructuradas y recursos organizados; asimismo, mejora el desempeño a través de la práctica guiada, la retroalimentación oportuna, y fortalece la motivación al generar sentido, comunidad y acompañamiento.
     
-    p.mb-5 En contraste, cuando las TIC se utilizan únicamente como repositorios de información o canales de mensajería sin una estrategia pedagógica definida, su potencial mediador se debilita: aumenta la desorientación, disminuye la participación y el aprendizaje tiende a ser superficial.
+    p.mb-5(data-aos="fade-left") En contraste, cuando las TIC se utilizan únicamente como repositorios de información o canales de mensajería sin una estrategia pedagógica definida, su potencial mediador se debilita: aumenta la desorientación, disminuye la participación y el aprendizaje tiende a ser superficial.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .titulo-sexto.mb-4
           h5 Figura 1.
           | Esquema de mediación pedagógica con TIC y sus interacciones clave en el aprendizaje
-        .row.justify-content-center.align-items-center.mb-0
+        .row.justify-content-center.align-items-stretch.mb-0
           .col-lg-6
-            img.img-t(src='@/assets/curso/tema1/7.svg', alt='Representa un modelo de mediación pedagógica con TIC donde el aprendizaje se construye a partir de interacciones bidireccionales entre el aprendiz, las tecnologías y el tutor. Estas relaciones se articulan con el contenido como eje orientador y se proyectan hacia la comunidad, evidenciando un proceso formativo conectado, dinámico y contextualizado.')
-          .col-lg-6
-            img.img-t(src='@/assets/curso/tema1/8.png', alt='Representa un modelo de mediación pedagógica con TIC donde el aprendizaje se construye a partir de interacciones bidireccionales entre el aprendiz, las tecnologías y el tutor. Estas relaciones se articulan con el contenido como eje orientador y se proyectan hacia la comunidad, evidenciando un proceso formativo conectado, dinámico y contextualizado.')
+            img.h-100(src='@/assets/curso/tema1/7.svg', alt='Representa un modelo de mediación pedagógica con TIC donde el aprendizaje se construye a partir de interacciones bidireccionales entre el aprendiz, las tecnologías y el tutor. Estas relaciones se articulan con el contenido como eje orientador y se proyectan hacia la comunidad, evidenciando un proceso formativo conectado, dinámico y contextualizado.')
+          .col-lg-6.d-none.d-lg-block
+            img.h-100(src='@/assets/curso/tema1/8.png', alt='Representa un modelo de mediación pedagógica con TIC donde el aprendizaje se construye a partir de interacciones bidireccionales entre el aprendiz, las tecnologías y el tutor. Estas relaciones se articulan con el contenido como eje orientador y se proyectan hacia la comunidad, evidenciando un proceso formativo conectado, dinámico y contextualizado.')
 
-    .titulo.mb-5(data-aos="fade-right")
+    .titulo.mb-5(data-aos="fade-left")
       .titulo__icono
       .titulo__texto
         img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
@@ -100,9 +100,9 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Conceptos clave para comprender la mediación TIC
     
-    p.mb-5 Para comprender la mediación de las TIC en un proceso formativo, es necesario partir de tres conceptos fundamentales que funcionan como referentes para la toma de decisiones pedagógicas: la mediación didáctica, la interacción y la presencia.
+    p.mb-5(data-aos="fade-right") Para comprender la mediación de las TIC en un proceso formativo, es necesario partir de tres conceptos fundamentales que funcionan como referentes para la toma de decisiones pedagógicas: la mediación didáctica, la interacción y la presencia.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
       .col-lg-12
         AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0(data-aos="fade-left")
           .row.justify-content-center.align-items-center(titulo="Mediación didáctica")
@@ -132,7 +132,7 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-6
             img(src='@/assets/curso/tema1/13.svg', alt='Organiza la mediación TIC como un eje central del proceso formativo, estructurado en tres componentes: mediación didáctica, interacción y presencia. Cada uno integra elementos clave como el diseño pedagógico, las relaciones entre actores del aprendizaje y las condiciones de acompañamiento, evidenciando un enfoque articulado para favorecer la construcción del conocimiento.')
-          .col-lg-6
+          .col-lg-6.d-none.d-lg-block
             img(src='@/assets/curso/tema1/14.png', alt='Texto que describa la imagen')
     
     
@@ -140,7 +140,7 @@
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Principios pedagógicos para integrar TIC con sentido
 
-    p.mb-5 La integración de las TIC en los procesos formativos es efectiva cuando se basa en tres principios clave:
+    p.mb-5(data-aos="fade-right") La integración de las TIC en los procesos formativos es efectiva cuando se basa en tres principios clave:
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12.offset-lg-0

@@ -7,7 +7,7 @@
         span 4
       h1 Herramientas tecnológicas para orientar procesos formativos
     
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.bloque2.p-4.p-lg-5.mb-0
           .bloque-texto-g__img(
@@ -38,7 +38,7 @@
           h4.mb-4.text-center Retroalimentación
           p.mb-0 Brinda orientaciones que permiten reconocer aciertos, identificar aspectos por mejorar y fortalecer el proceso de aprendizaje.
 
-    p.mb-0 A partir de estos elementos, se pueden utilizar diferentes herramientas tecnológicas, cada una con un propósito específico:
+    p.mb-0(data-aos="fade-right") A partir de estos elementos, se pueden utilizar diferentes herramientas tecnológicas, cada una con un propósito específico:
     
     .row.justify-content-center.align-items-center.fondo2.p-lg-5.p-4.mb-0(data-aos="fade-down")
       .col-lg-12
@@ -47,36 +47,36 @@
             img.img-t(src="@/assets/curso/tema4/6.png", alt="alt")
           .col-lg-9
             SlyderF(columnas="col-md-6 col-xl-4")
-              .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
-                .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .tarjeta.tarjeta--slyder.b2.p-3
+                .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/7.svg' alt='AvatarTop')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 Wikis
                 p.mb-0.text-center Son espacios de construcción colaborativa. Permiten que varios estudiantes trabajen juntos en la creación de contenidos como manuales, glosarios o proyectos. Favorecen el trabajo en equipo, la organización de ideas y la mejora continua de los productos. 
-              .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
-                .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .tarjeta.tarjeta--slyder.b2.p-3
+                .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/8.svg' alt='AvatarTop')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 Blogs
                 p.mb-0.text-center Funcionan como portafolios de aprendizaje. En ellos, el estudiante puede publicar sus avances, reflexiones y evidencias. Ayudan a desarrollar la capacidad de análisis, autoevaluación y comunicación de ideas. 
-              .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
-                .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .tarjeta.tarjeta--slyder.b2.p-3
+                .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/9.svg' alt='AvatarTop')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 Redes sociales
                 p.mb-0.text-center Facilitan la interacción, el intercambio de ideas y la construcción de comunidad. Su uso debe ser orientado por normas claras, con el fin de promover la participación respetuosa y el aprendizaje colaborativo. 
-              .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
-                .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .tarjeta.tarjeta--slyder.b2.p-3
+                .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/10.svg' alt='AvatarTop')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 #[em Software] educativo
                 p.mb-0.text-center Incluye simuladores, plataformas de práctica y aplicaciones interactivas. Permite aprender haciendo, practicar habilidades y recibir retroalimentación inmediata, especialmente en actividades que requieren repetición o precisión. 
-              .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
-                .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .tarjeta.tarjeta--slyder.b2.p-3
+                .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/11.svg' alt='AvatarTop')
                 .bg44.p-1.mb-4
@@ -91,20 +91,20 @@
     #t_4_1.titulo-segundo.mb-5
       h2 4.1 Ruta de diseño para orientar una experiencia mediada
 
-    p.mb-5 Para asesorar procesos de formación mediados por TIC, es fundamental contar con una ruta de diseño que articule el diagnóstico, la estrategia didáctica y la evidencia de aprendizaje, evitando la improvisación. 
+    p.mb-5(data-aos="fade-right") Para asesorar procesos de formación mediados por TIC, es fundamental contar con una ruta de diseño que articule el diagnóstico, la estrategia didáctica y la evidencia de aprendizaje, evitando la improvisación. 
 
     .row.justify-content-center.align-items-center.fondo3.p-lg-5.p-4.mb-4(data-aos="fade-down")
       .col-lg-12
         .row.justify-content-center.align-items-stretch.mb-0
-          .col-lg-4
+          .col-lg-4.col-md-6.mb-lg-0.mb-4
             .bgw.p-lg-5.p-4.h-100
               .row.justify-content-center.align-items-center.mt-lg-2
                 .col-12
                   img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/13.svg' alt='AvatarTop')
                   p.mb-0 El modelo ADDIE (Analizar – Diseñar – Desarrollar – Implementar – Evaluar)
-          .col-lg-4
+          .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema4/12.png' alt='AvatarTop')
-          .col-lg-4
+          .col-lg-4.col-md-6.mb-lg-0.mb-4
             .bgw.p-lg-5.p-4.h-100
               .row.justify-content-center.align-items-center.mt-lg-2
                 .col-12

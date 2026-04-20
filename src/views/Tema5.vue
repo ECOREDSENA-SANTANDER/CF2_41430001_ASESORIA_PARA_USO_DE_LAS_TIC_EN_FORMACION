@@ -9,7 +9,7 @@
     
     .bg1.mb-0
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right")
+        .col-lg-5.col-12.mb-lg-0.mb-0.d-none.d-lg-block(data-aos="fade-right")
           img(src='@/assets/curso/tema5/1.png', alt='')
         .col-lg-7(data-aos="fade-left")
           .p-4
@@ -22,7 +22,7 @@
     #t_5_1.titulo-segundo.mb-5
       h2 5.1 Derechos de autor y Recursos Educativos Abiertos (REA)
     
-    p.mb-5 En la asesoría TIC es fundamental promover una cultura de uso responsable de la información; esto implica no solo acceder a contenidos, sino comprender cómo utilizarlos de forma legal y ética en contextos educativos. Por ello, es clave orientar a tutores y aprendices en prácticas como:
+    p.mb-5(data-aos="fade-right") En la asesoría TIC es fundamental promover una cultura de uso responsable de la información; esto implica no solo acceder a contenidos, sino comprender cómo utilizarlos de forma legal y ética en contextos educativos. Por ello, es clave orientar a tutores y aprendices en prácticas como:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
@@ -46,7 +46,7 @@
     .cajon.color-secundario.p-lg-5.p-4.mb-5(data-aos="fade-left")
       p.mb-0 Aquí cobran especial relevancia los Recursos Educativos Abiertos (REA), ya que permiten usar, adaptar y compartir materiales bajo condiciones claras. Su incorporación favorece la equidad en el acceso al conocimiento y promueve prácticas colaborativas.
     
-    p.mb-5 En términos prácticos, asesorar con REA implica enseñar a:
+    p.mb-5(data-aos="fade-right") En términos prácticos, asesorar con REA implica enseñar a:
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
@@ -59,18 +59,18 @@
         .bg311.p-4.h-100.cen
           p.mb-0.text-center Documentar adecuadamente las fuentes en las evidencias académicas.
     
-    p.mb-0 De esta manera, no solo se cumple con la legalidad, sino que se fortalece la formación ética y crítica del estudiante frente al uso de la información.
+    p.mb-0(data-aos="fade-right") De esta manera, no solo se cumple con la legalidad, sino que se fortalece la formación ética y crítica del estudiante frente al uso de la información.
 
 
     separador
     #t_5_2.titulo-segundo.mb-5
       h2 5.2 Seguridad digital y protección de datos
 
-    p.mb-5 La seguridad digital es un componente esencial de la asesoría TIC, ya que incide directamente en la confianza, la participación y la continuidad del aprendizaje. No se trata únicamente de aspectos técnicos, sino de generar entornos formativos seguros. Algunas acciones clave incluyen:
+    p.mb-5(data-aos="fade-left") La seguridad digital es un componente esencial de la asesoría TIC, ya que incide directamente en la confianza, la participación y la continuidad del aprendizaje. No se trata únicamente de aspectos técnicos, sino de generar entornos formativos seguros. Algunas acciones clave incluyen:
   
     .bg1.p-4.p-lg-5.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
-        .col-lg-6.mb-lg-0.mb-4
+        .col-lg-6.mb-lg-0.mb-0
           ul.lista-ul.mb-0
             li.d-flex.mb-3
               i.fas.fa-globe
@@ -96,43 +96,43 @@
     #t_5_3.titulo-segundo.mb-5
       h2 5.3 Accesibilidad e inclusión
 
-    p.mb-5 La asesoría TIC debe reconocer la diversidad de los contextos de aprendizaje: estudiantes con distintos niveles de conectividad, acceso a dispositivos, ritmos de trabajo y necesidades de apoyo. Por ello, la accesibilidad y la inclusión no son elementos opcionales, sino criterios centrales de diseño pedagógico como:
+    p.mb-5(data-aos="fade-left") La asesoría TIC debe reconocer la diversidad de los contextos de aprendizaje: estudiantes con distintos niveles de conectividad, acceso a dispositivos, ritmos de trabajo y necesidades de apoyo. Por ello, la accesibilidad y la inclusión no son elementos opcionales, sino criterios centrales de diseño pedagógico como:
 
-    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
-      .col-md-6.col-lg-4
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-0(data-aos="fade-right")
+      .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
           img.img-a.img-t(src='@/assets/curso/tema5/4.svg' alt='')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Elaborar materiales claros y estructurados (uso de títulos, listas, lenguaje sencillo).
-      .col-md-6.col-lg-4
+      .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
           img.img-a.img-t(src='@/assets/curso/tema5/5.svg' alt='')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Garantizar buena legibilidad (contraste, tamaño de fuente).
-      .col-md-6.col-lg-4
+      .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
           img.img-a.img-t(src='@/assets/curso/tema5/6.svg' alt='')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Incluir texto alternativo en imágenes y subtítulos en videos.
     
-    .row.justify-content-center.mb-5(data-aos="fade-right")
-      .col-12.col-md-6
+    .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-right")
+      .col-12.col-md-6.mb-lg-0.mb-4
         .tarjeta-avatar
           img.img-a.img-t(src='@/assets/curso/tema5/4.svg' alt='')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Ofrecer recursos descargables o versiones livianas.
-      .col-12.col-md-6
+      .col-12.col-md-6.mb-lg-0.mb-4
         .tarjeta-avatar
           img.img-a.img-t(src='@/assets/curso/tema5/5.svg' alt='')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Diseñar actividades con opciones equivalentes de entrega (audio, texto, video).
 
-    p.mb-5 Estas acciones permiten que todos los estudiantes puedan acceder, participar y demostrar su aprendizaje, sin disminuir los estándares de calidad.
+    p.mb-5(data-aos="fade-right") Estas acciones permiten que todos los estudiantes puedan acceder, participar y demostrar su aprendizaje, sin disminuir los estándares de calidad.
 
     .cajon.color-acento-contenido.p-lg-5.p-4.mb-0(data-aos="fade-left")
       p.mb-0 En consecuencia, integrar la accesibilidad desde el diseño fortalece la equidad, la permanencia y el logro de los resultados de aprendizaje, especialmente en contextos diversos y mediados por TIC.

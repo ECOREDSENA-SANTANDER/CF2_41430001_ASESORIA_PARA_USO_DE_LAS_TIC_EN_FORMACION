@@ -24,10 +24,10 @@
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Concepto de educación en entornos digitales
     
-    p.mb-5 La formación en entornos digitales se desarrolla principalmente a través de plataformas de aprendizaje, repositorios de contenido y herramientas de comunicación en línea. Puede integrar momentos sincrónicos, como clases o tutorías en tiempo real, y momentos asincrónicos, como lecturas, foros y actividades prácticas, que permiten al aprendiz avanzar a su propio ritmo.
+    p.mb-5(data-aos="fade-left") La formación en entornos digitales se desarrolla principalmente a través de plataformas de aprendizaje, repositorios de contenido y herramientas de comunicación en línea. Puede integrar momentos sincrónicos, como clases o tutorías en tiempo real, y momentos asincrónicos, como lecturas, foros y actividades prácticas, que permiten al aprendiz avanzar a su propio ritmo.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
       .col-lg-8
         .bg5.p-lg-5.p-4
@@ -35,19 +35,19 @@
           p.mb-0 En este marco, la educación mediada por TIC no se limita al uso de herramientas digitales, sino que implica el diseño intencionado de estrategias didácticas que favorezcan la interacción, la construcción de conocimiento y el desarrollo de competencias, donde la tecnología actúa como un medio para potenciar el aprendizaje.
     
     .row.justify-content-center.align-items-center.fondo1.p-4.mb-0(data-aos="fade-down")
-      .col-lg-12.mb-0
+      .col-lg-12
         .row.justify-content-evenly.align-items-center.mt-lg-5.mb-lg-5.py-lg-5
           .col-lg-8
             .row.justify-content-between.mb-0
-              .col-lg-3
+              .col-lg-3.col-md-4.mb-lg-0.mb-4
                 img.img-t.img-a.mb-4(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
                 .bg9.p-2
                   h5.mb-0.text-center Flexibilidad
-              .col-lg-3
+              .col-lg-3.col-md-4.mb-lg-0.mb-4
                 img.img-t.img-a.mb-4(src='@/assets/curso/tema2/4.svg' alt='AvatarTop')
                 .bg9.p-2
                   h5.mb-0.text-center Escalabilidad
-              .col-lg-3
+              .col-lg-3.col-md-4.mb-lg-0.mb-4
                 img.img-t.img-a.mb-4(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
                 .bg9.p-2
                   h5.mb-0.text-center Mediación efectiva
@@ -57,7 +57,7 @@
     #t_2_2.titulo-segundo.mb-5
       h2 2.2 Formación combinada
 
-    p.mb-5 La formación combinada integra de manera intencional actividades presenciales con experiencias en línea que se complementan y potencian mutuamente. No consiste en añadir una plataforma como una tarea adicional, sino en diseñar una secuencia didáctica en la que lo virtual cumple un propósito claro dentro del proceso de aprendizaje.
+    p.mb-5(data-aos="fade-right") La formación combinada integra de manera intencional actividades presenciales con experiencias en línea que se complementan y potencian mutuamente. No consiste en añadir una plataforma como una tarea adicional, sino en diseñar una secuencia didáctica en la que lo virtual cumple un propósito claro dentro del proceso de aprendizaje.
 
     .bloque-texto-g.color-primario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
@@ -103,7 +103,7 @@
                 td Evidenciar
                 td Demostrar el aprendizaje.
                 td Portafolio, informe, entrega evaluativa.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/7.png' alt='AvatarTop')
 
     p.mb-5 Estrategias de diseño en la formación combinada:
@@ -134,7 +134,7 @@
 
     .bg1.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right")
+        .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0(data-aos="fade-right")
           img(src='@/assets/curso/tema2/11.png', alt='')
         .col-lg-7(data-aos="fade-left")
           .p-4
