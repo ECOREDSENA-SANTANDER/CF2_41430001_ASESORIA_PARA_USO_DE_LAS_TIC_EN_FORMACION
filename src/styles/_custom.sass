@@ -349,36 +349,129 @@ figcaption
   @media only screen and (max-width: 767px)
     border-radius: 20px
 
+.bloque2
+  background-color: #0D47AE
+  border-radius: 49px 0px 0px 49px 
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
 
+.bg12
+  background-color: #C4FDDB
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    background-color: #B5C7E7
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
 
+.fondo2
+  background: url('../assets/curso/tema4/fondo2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+  @media only screen and (max-width: 767px)
+    margin-inline: -2rem
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    margin-inline: -2rem
+    margin-right: -3rem
+    margin-left: -3rem
+  @media only screen and (min-width: 1024px) 
+    margin-inline: -3.6rem
+.tarjeta--slyder.b2
+  background-color: #B5C7E7
+  border-radius: 20px
+.bg44
+  background-color: #0D47AE
+  width: fit-content
+  margin: auto
+.fa-chevron-right 
+  content: url('../assets/curso/tema4/der.png')
+.fa-chevron-left
+  content: url('../assets/curso/tema4/izq.png')
 
+.fondo3
+  background: url('../assets/curso/tema4/fondo3.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+  @media only screen and (max-width: 767px)
+    margin-inline: -2rem
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    margin-inline: -2rem
+    margin-right: -3rem
+    margin-left: -3rem
+  @media only screen and (min-width: 1024px) 
+    margin-inline: -3.6rem
 
+.bgw
+  background-color: #FFFFFF
+  border-radius: 20px
 
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.5
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 30%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 70%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #B5F9FC
+  color: black !important
+.color-a
+  background-color: #E2E2E0
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #3EF989 !important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color: #3EF989!important
 
+.cajon.color-primario
+  background-color: #B5C7E7
+  &:before 
+    background-color: #0D47AE
 
+.tarjeta-numerada
+  border: solid 4px
+.tarjeta-numerada.color-acento-contenido .tarjeta-numerada__numero div 
+  color: white
+.tarjeta-numerada.color-secundario .tarjeta-numerada__numero div 
+  color: black
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero div 
+  color: white
 
+.bg311
+  background-color: #CBB8E1
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
 
+.bg13
+  background-color: #D2E1F1
+.fa-globe
+  color: #53159B
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bg14
+  background-color: #B5C7E7
+  border-radius: 20px
+  width: 100%
+  
 
 /////////////////////////////////////////////TABLAS//////////////////////////////////////////
 
@@ -447,3 +540,15 @@ figcaption
     width: 37%
   th:nth-child(3)
     width: 37%
+
+.tabla-a.tab4
+  th:nth-child(1)
+    width: 22%
+  td:nth-child(1)
+    font-weight: bold
+  th:nth-child(2)
+    width: 26%
+  th:nth-child(3)
+    width: 26%
+  th:nth-child(4)
+    width: 26%
