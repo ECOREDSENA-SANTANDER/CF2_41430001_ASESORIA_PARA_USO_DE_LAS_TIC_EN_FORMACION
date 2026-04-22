@@ -95,7 +95,7 @@ export default {
         {
           id: 3,
           texto:
-            '¿Cuál es el rasgo principal de la formación combinada (blended learning)?',
+            '¿Cuál es el rasgo principal de la formación combinada (<em>blended learning</em>)?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -122,7 +122,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con blended learning, el cual combina de forma intencional lo presencial y lo virtual para lograr el aprendizaje.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con <em>blended learning</em>, el cual combina de forma intencional lo presencial y lo virtual para lograr el aprendizaje.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo sobre formación combinada.',
         },
@@ -226,7 +226,7 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es un criterio clave para seleccionar software educativo?',
+            '¿Cuál es un criterio clave para seleccionar <em>software</em> educativo?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -531,7 +531,7 @@ export default {
         {
           id: 18,
           texto:
-            '¿Qué ventaja pedagógica ofrecen los simuladores en software educativo?',
+            '¿Qué ventaja pedagógica ofrecen los simuladores en <em>software</em> educativo?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [

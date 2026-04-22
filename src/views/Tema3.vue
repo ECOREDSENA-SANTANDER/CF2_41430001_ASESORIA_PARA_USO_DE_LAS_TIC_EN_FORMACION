@@ -285,7 +285,7 @@
     #t_3_3.titulo-segundo.mb-5
       h2 3.3 Acompañamiento y retroalimentación mediada
 
-    p.mb-5(data-aos="fade-right") La retroalimentación mediada por TIC es un componente central del aprendizaje, no una acción posterior ni aislada; puede presentarse en distintos formatos (comentarios escritos en plataformas, anotaciones en documentos, audios, videos o rúbricas). Su valor radica en su carácter formativo: debe ser clara, específica, basada en criterios y orientada a la mejora.
+    p.mb-5(data-aos="fade-right") La retroalimentación mediada por TIC es un componente central del aprendizaje, no una acción posterior ni aislada; puede presentarse en distintos formatos (comentarios escritos en plataformas, anotaciones en documentos, audios, videos o rúbricas). Su valor radica en su carácter formativo: #[b debe ser clara, específica, basada en criterios y orientada a la mejora.]
     
     p.mb-5(data-aos="fade-right") Una retroalimentación efectiva responde a las siguientes preguntas clave:
 

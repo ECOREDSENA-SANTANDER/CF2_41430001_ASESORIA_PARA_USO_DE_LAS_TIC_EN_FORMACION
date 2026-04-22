@@ -89,8 +89,8 @@
             .tarjeta.bg4.p-4.rounded-0.h-100
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-4(
-                texto="<em>Pódcast:</em>"
-                :audio="require('@/assets/actividad/audio/screen-change.mp3')"
+                texto="Pódcast:"
+                :audio="require('@/assets/actividad/audio/Podcast_CF2_41430001_Guion_Las_TIC_como_mediadoras_del_aprendizaje.mp3')"
             ).mb-4
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 p.mb-0 A continuación, se presenta un pódcast que amplía la temática sobre las TIC como mediadoras del aprendizaje en ambientes virtuales, y su impacto en la calidad de los procesos formativos, la interacción educativa y el acompañamiento pedagógico.

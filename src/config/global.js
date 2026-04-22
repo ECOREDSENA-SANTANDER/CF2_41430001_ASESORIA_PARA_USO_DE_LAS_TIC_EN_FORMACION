@@ -70,7 +70,8 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'Wikis, blogs, redes sociales, software educativo y medios',
+            titulo:
+              'Wikis, blogs, redes sociales, <em>software</em> educativo y medios',
             hash: 't_2_3',
           },
         ],
@@ -354,7 +355,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
