@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}"
           )
           .bloque-texto-g__texto.p-4.p-lg-5
-            p.mb-0 Las modalidades de formación mediadas por TIC se diferencian principalmente por el grado de presencialidad y virtualidad, el tipo de interacción predominante (sincrónica o asincrónica), la flexibilidad en los tiempos y el nivel de autonomía que se espera del aprendiz. Elegir una modalidad implica una decisión pedagógica y logística, ya que requiere considerar si la competencia demanda práctica supervisada, si los estudiantes cuentan con condiciones de conectividad adecuadas, si existe acompañamiento tutorial suficiente y si es posible sostener un ritmo de trabajo constante. 
+            p.mb-0 Las modalidades de formación mediadas por TIC se diferencian principalmente por el grado de presencialidad y virtualidad, el tipo de interacción predominante (sincrónica o asincrónica), la flexibilidad en los tiempos y el nivel de autonomía que se espera del aprendiz. Elegir una modalidad implica una decisión pedagógica y logística, ya que requiere considerar si la competencia demanda práctica supervisada, si los aprendices cuentan con condiciones de conectividad adecuadas, si existe acompañamiento tutorial suficiente y si es posible sostener un ritmo de trabajo constante.  
             br
             br
             p.mb-0 En este sentido, no existe una modalidad superior de manera absoluta; su pertinencia depende de la coherencia entre los resultados de aprendizaje, el contexto y las condiciones reales del grupo, así como de la claridad en la definición de actividades, evidencias, seguimiento y retroalimentación.
@@ -128,7 +128,7 @@
 
     separador 
     #t_2_3.titulo-segundo.mb-5
-      h2 2.3 Wikis, blogs, redes sociales, #[em software] educativo y medios
+      h2 2.3 #[em Wikis, blogs,] redes sociales, #[em software] educativo y medios
 
     p.mb-5 Más que constituir modalidades independientes, estas herramientas actúan como componentes que fortalecen los procesos formativos en entornos virtuales o combinados, ya que permiten responder a necesidades específicas del aprendizaje.
 
@@ -139,7 +139,7 @@
         .col-lg-7(data-aos="fade-left")
           .p-4
             img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/12.svg', alt='')
-            p.mb-0 Por ejemplo, un blog puede utilizarse como portafolio digital para evidenciar avances y promover la reflexión, haciendo visible el aprendizaje. Una wiki facilita la construcción colectiva del conocimiento, al funcionar como repositorio de contenidos o manual de procedimientos en constante actualización. Por su parte, las redes sociales pueden convertirse en espacios de interacción, divulgación y aprendizaje informal, siempre que su uso esté orientado por un propósito pedagógico claro, normas de participación definidas y criterios de seguimiento.
+            p.mb-0 Por ejemplo, un #[em blog] puede utilizarse como portafolio digital para evidenciar avances y promover la reflexión, haciendo visible el aprendizaje. Una #[em wiki] facilita la construcción colectiva del conocimiento, al funcionar como repositorio de contenidos o manual de procedimientos en constante actualización. Por su parte, las redes sociales pueden convertirse en espacios de interacción, divulgación y aprendizaje informal, siempre que su uso esté orientado por un propósito pedagógico claro, normas de participación definidas y criterios de seguimiento.
 
     .cajon.color-acento-botones.p-lg-5.p-4.mb-0(data-aos="fade-left")
       p.mb-4 En cuanto al #[em software] educativo, como simuladores o plataformas de práctica guiada, este permite desarrollar habilidades mediante la experimentación y la retroalimentación inmediata. Asimismo, los medios de comunicación, como la TV web o los contenidos digitales de amplio alcance, apoyan procesos de demostración, sensibilización y difusión del conocimiento.

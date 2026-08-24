@@ -59,7 +59,7 @@
         .bg311.p-4.h-100.cen
           p.mb-0.text-center Documentar adecuadamente las fuentes en las evidencias académicas.
     
-    p.mb-0(data-aos="fade-right") De esta manera, no solo se cumple con la legalidad, sino que se fortalece la formación ética y crítica del estudiante frente al uso de la información.
+    p.mb-0(data-aos="fade-right") De esta manera, no solo se cumple con la legalidad, sino que se fortalece la formación ética y crítica del aprendiz frente al uso de la información.
 
 
     separador
@@ -88,7 +88,7 @@
           img(src='@/assets/curso/tema5/3.png' alt='AvatarTop')
 
     .cajon.color-acento-botones.p-lg-5.p-4.mb-0(data-aos="fade-left")
-      p.mb-4 Además, es fundamental garantizar el consentimiento informado cuando se utilicen datos o evidencias de los estudiantes, así como priorizar canales institucionales para la comunicación y entrega de actividades. Esto permite delimitar lo personal de lo académico y reducir riesgos de exposición.
+      p.mb-4 Además, es fundamental garantizar el consentimiento informado cuando se utilicen datos o evidencias de los aprendices, así como priorizar canales institucionales para la comunicación y entrega de actividades. Esto permite delimitar lo personal de lo académico y reducir riesgos de exposición.
       p.mb-0 Una adecuada gestión de la seguridad digital contribuye a consolidar un ambiente formativo seguro, confiable y profesional.
 
 
@@ -96,7 +96,7 @@
     #t_5_3.titulo-segundo.mb-5
       h2 5.3 Accesibilidad e inclusión
 
-    p.mb-5(data-aos="fade-left") La asesoría TIC debe reconocer la diversidad de los contextos de aprendizaje: estudiantes con distintos niveles de conectividad, acceso a dispositivos, ritmos de trabajo y necesidades de apoyo. Por ello, la accesibilidad y la inclusión no son elementos opcionales, sino criterios centrales de diseño pedagógico como:
+    p.mb-5(data-aos="fade-left") La asesoría TIC debe reconocer la diversidad de los contextos de aprendizaje: aprendices con distintos niveles de conectividad, acceso a dispositivos, ritmos de trabajo y necesidades de apoyo. Por ello, la accesibilidad y la inclusión no son elementos opcionales, sino criterios centrales de diseño pedagógico como:
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-0(data-aos="fade-right")
       .col-md-6.col-lg-4.mb-lg-0.mb-4
@@ -132,7 +132,7 @@
             .p-4
               p.mb-0.text-center.mt-lg-3 Diseñar actividades con opciones equivalentes de entrega (audio, texto, video).
 
-    p.mb-5(data-aos="fade-right") Estas acciones permiten que todos los estudiantes puedan acceder, participar y demostrar su aprendizaje, sin disminuir los estándares de calidad.
+    p.mb-5(data-aos="fade-right") Estas acciones permiten que todos los aprendices puedan acceder, participar y demostrar su aprendizaje, sin disminuir los estándares de calidad.
 
     .cajon.color-acento-contenido.p-lg-5.p-4.mb-0(data-aos="fade-left")
       p.mb-0 En consecuencia, integrar la accesibilidad desde el diseño fortalece la equidad, la permanencia y el logro de los resultados de aprendizaje, especialmente en contextos diversos y mediados por TIC.

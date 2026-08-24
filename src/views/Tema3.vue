@@ -33,64 +33,64 @@
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Diseña experiencias
+                  p.mb-0 Diseña experiencias.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Orienta
+                  p.mb-0 Orienta.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Modela estrategias
+                  p.mb-0 Modela estrategias.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Acompaña comprensión
+                  p.mb-0 Acompaña la comprensión.
             .tarjeta.color-acento-botones.p-4(x="81%" y="15%" numero="2")
               .h5.mb-2 Rol social
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Genera presencia
+                  p.mb-0 Genera presencia.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Fomenta confianza
+                  p.mb-0 Fomenta confianza.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Promueve netiqueta
+                  p.mb-0 Promueve netiqueta.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Fortalece cohesión
+                  p.mb-0 Fortalece la cohesión.
             .tarjeta.color-acento-botones.p-4(x="10%" y="94.5%" numero="3")
               .h5.mb-2 Rol de gestión
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Organiza tiempos
+                  p.mb-0 Organiza tiempos.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Define rutas
+                  p.mb-0 Define rutas.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Establece criterios
+                  p.mb-0 Establece criterios.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Gestiona evidencias
+                  p.mb-0 Gestiona evidencias.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Realiza seguimiento
+                  p.mb-0 Realiza seguimiento.
             .tarjeta.color-acento-botones.p-4(x="90%" y="94.5%" numero="4")
               .h5.mb-2 Rol técnico
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Apoya plataformas
+                  p.mb-0 Apoya plataformas.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Orienta recursos
+                  p.mb-0 Orienta recursos.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Resuelve incidencias básicas
+                  p.mb-0 Resuelve incidencias básicas.
                 li.d-flex.mb-0
                   i.fas.fa-leaf
-                  p.mb-0 Facilita herramientas
+                  p.mb-0 Facilita herramientas.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12
@@ -194,14 +194,14 @@
                 td Social
                 td Generar acompañamiento y fortalecer la participación.
                 td Da la bienvenida, promueve el respeto, establece normas de convivencia digital, modera conflictos, incentiva la participación y fomenta el trabajo colaborativo.
-                td Reconoce avances, motiva a quienes participan menos, organiza debates, coevaluaciones o wikis y mantiene un tono cercano y profesional.
+                td Reconoce avances, motiva a quienes participan menos, organiza debates, coevaluaciones o #[em wikis] y mantiene un tono cercano y profesional.
                 td Disminuye el aislamiento, fortalece la motivación y consolida comunidades de aprendizaje.
               tr
                 td De gestión
                 td Organizar y dar claridad al proceso formativo.
                 td Define cronograma, entregas, instrucciones, canales oficiales, seguimiento, recordatorios y criterios de evaluación.
                 td Publica orientaciones claras, hace seguimiento al avance, entrega retroalimentación oportuna y usa listas de chequeo o rúbricas coherentes con la actividad.
-                td Reduce la incertidumbre, mejora la organización del estudiante y eleva la calidad de las evidencias entregadas.
+                td Reduce la incertidumbre, mejora la organización del aprendiz y eleva la calidad de las evidencias entregadas.
               tr
                 td Técnico
                 td Evitar que la tecnología se convierta en barrera para aprender.
@@ -261,7 +261,7 @@
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg2.p-4
           img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/7.svg' alt='AvatarTop')
-          p.mb-0 A partir de ello, la comunicación se convierte en una competencia clave. Instrucciones claras, pasos organizados, ejemplos de productos esperados y criterios visibles desde el inicio reducen la incertidumbre y evitan interpretaciones erróneas. De este modo, el estudiante comprende qué hacer, cómo hacerlo y bajo qué estándares será evaluado.
+          p.mb-0 A partir de ello, la comunicación se convierte en una competencia clave. Instrucciones claras, pasos organizados, ejemplos de productos esperados y criterios visibles desde el inicio reducen la incertidumbre y evitan interpretaciones erróneas. De este modo, el aprendiz comprende qué hacer, cómo hacerlo y bajo qué estándares será evaluado.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg2.p-4
           img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/8.svg' alt='AvatarTop')
@@ -309,7 +309,7 @@
           img(src='@/assets/curso/tema3/10.png', alt='')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            p.mb-4 Cuando el tutor vincula sus comentarios con criterios explícitos, como por ejemplo claridad del procedimiento, calidad de la argumentación o cumplimiento de normas técnicas, el estudiante comprende con mayor precisión cómo mejorar su desempeño.
+            p.mb-4 Cuando el tutor vincula sus comentarios con criterios explícitos, como por ejemplo claridad del procedimiento, calidad de la argumentación o cumplimiento de normas técnicas, el aprendiz comprende con mayor precisión cómo mejorar su desempeño.
             p.mb-0 En procesos de formación complementaria, donde el tiempo es limitado, se recomienda el uso de rúbricas simples (entre tres y cinco criterios) acompañadas de comentarios breves que prioricen una o dos mejoras clave. Esta estrategia permite enfocar el esfuerzo del aprendiz en aspectos realmente significativos.
 
     .tit.p-2.d-flex.mb-5(data-aos="fade-left")
@@ -330,7 +330,7 @@
           p.mb-lg-4.mb-0 Para mejorar, incorpore una justificación del material utilizado y una evidencia de la verificación final del proceso (aspectos a fortalecer).
           
     .cajon.color-acento-contenido.p-lg-5.p-4.mb-0(data-aos="fade-left")
-      p.mb-0 Así, la retroalimentación no solo cierra una actividad, sino que impulsa nuevos aprendizajes, fortalece la autonomía y promueve la mejora a partir de los propios productos del estudiante.
+      p.mb-0 Así, la retroalimentación no solo cierra una actividad, sino que impulsa nuevos aprendizajes, fortalece la autonomía y promueve la mejora a partir de los propios productos del aprendiz.
           
 
 </template>

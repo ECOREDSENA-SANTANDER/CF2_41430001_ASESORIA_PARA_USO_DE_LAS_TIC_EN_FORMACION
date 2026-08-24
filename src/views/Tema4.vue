@@ -26,12 +26,12 @@
         .h-100.bg12.p-4
           img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/3.svg' alt='AvatarTop')
           h4.mb-4.text-center Actividad
-          p.mb-0 Describe las acciones que el estudiante debe realizar para lograr el propósito planteado.
+          p.mb-0 Describe las acciones que el aprendiz debe realizar para lograr el propósito planteado.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg12.p-4
           img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/4.svg' alt='AvatarTop')
           h4.mb-4.text-center Evidencia
-          p.mb-0 Corresponde al producto o desempeño mediante el cual el estudiante demuestra lo aprendido.
+          p.mb-0 Corresponde al producto o desempeño mediante el cual el aprendiz demuestra lo aprendido.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg12.p-4
           img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/5.svg' alt='AvatarTop')
@@ -52,15 +52,15 @@
                   .col-12
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/7.svg' alt='AvatarTop')
                 .bg44.p-1.mb-4
-                  h4.text-center.text-white.mb-0.ps-2.pe-2 Wikis
-                p.mb-0 Son espacios de construcción colaborativa. Permiten que varios estudiantes trabajen juntos en la creación de contenidos como manuales, glosarios o proyectos. Favorecen el trabajo en equipo, la organización de ideas y la mejora continua de los productos. 
+                  h4.text-center.text-white.mb-0.ps-2.pe-2 #[em Wikis]
+                p.mb-0 Son espacios de construcción colaborativa. Permiten que varios aprendices trabajen juntos en la creación de contenidos como manuales, glosarios o proyectos. Favorecen el trabajo en equipo, la organización de ideas y la mejora continua de los productos. 
               .tarjeta.tarjeta--slyder.b2.p-3
                 .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/8.svg' alt='AvatarTop')
                 .bg44.p-1.mb-4
-                  h4.text-center.text-white.mb-0.ps-2.pe-2 Blogs
-                p.mb-0 Funcionan como portafolios de aprendizaje. En ellos, el estudiante puede publicar sus avances, reflexiones y evidencias. Ayudan a desarrollar la capacidad de análisis, autoevaluación y comunicación de ideas. 
+                  h4.text-center.text-white.mb-0.ps-2.pe-2 #[em Blogs]
+                p.mb-0 Funcionan como portafolios de aprendizaje. En ellos, el aprendiz puede publicar sus avances, reflexiones y evidencias. Ayudan a desarrollar la capacidad de análisis, autoevaluación y comunicación de ideas. 
               .tarjeta.tarjeta--slyder.b2.p-3
                 .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
@@ -117,7 +117,7 @@
           .tarjeta.color-a.p-4(titulo="Análisis")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                p.mb-0 Se examina el contexto, considerando el perfil de los estudiantes, sus necesidades, los recursos disponibles y las condiciones del entorno. 
+                p.mb-0 Se examina el contexto, considerando el perfil de los aprendices, sus necesidades, los recursos disponibles y las condiciones del entorno. 
           .tarjeta.color-a.p-4(titulo="Diseño")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -129,7 +129,7 @@
           .tarjeta.color-a.p-4(titulo="Implementación")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                p.mb-0 Se ejecuta la propuesta formativa, garantizando acompañamiento y seguimiento al estudiante. 
+                p.mb-0 Se ejecuta la propuesta formativa, garantizando acompañamiento y seguimiento al aprendiz.
           .tarjeta.color-a.p-4(titulo="Evaluación")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -154,7 +154,7 @@
             tbody
               tr
                 td Analizar
-                td Se identifican necesidades, perfil del estudiante, contexto y recursos disponibles.
+                td Se identifican necesidades, perfil del aprendiz, contexto y recursos disponibles.
                 td Comprender a quién va dirigido el proceso formativo.
                 td Diagnóstico de conectividad, nivel digital y conocimientos previos.
               tr
@@ -169,7 +169,7 @@
                 td Elaboración de guías, videos, simuladores o recursos digitales.
               tr
                 td Implementar
-                td Se ejecuta la propuesta formativa con acompañamiento al estudiante.
+                td Se ejecuta la propuesta formativa con acompañamiento al aprendiz.
                 td Promover interacción, seguimiento y participación activa.
                 td Uso de plataformas virtuales, tutorías y espacios colaborativos.
               tr

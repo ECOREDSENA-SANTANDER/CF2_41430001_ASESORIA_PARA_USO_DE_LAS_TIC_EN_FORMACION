@@ -71,7 +71,7 @@ export default {
           {
             numero: '2.3',
             titulo:
-              'Wikis, blogs, redes sociales, <em>software</em> educativo y medios',
+              '<em>Wikis, blogs,</em> redes sociales, <em>software</em> educativo y medios',
             hash: 't_2_3',
           },
         ],
@@ -247,7 +247,7 @@ export default {
         'principio que garantiza la participación de todos considerando diversidad de condiciones y necesidades.',
     },
     {
-      termino: 'LMS (Learning Management System)',
+      termino: 'LMS <em>(Learning Management System)</em>',
       significado:
         'plataforma digital para gestionar contenidos, actividades, seguimiento y evaluación.',
     },
@@ -314,8 +314,8 @@ export default {
     },
     {
       referencia:
-        'Kay, R. (2012). Exploring the use of video podcasts in education: A comprehensive review of the literature. Computers in Human Behavior, 28(3), 820–831. https://doi.org/10.1016/j.chb.2012.01.011',
-      link: '',
+        'Kay, R. (2012). Exploring the use of video podcasts in education: A comprehensive review of the literature. Computers in Human Behavior, 28(3), 820–831.',
+      link: 'https://doi.org/10.1016/j.chb.2012.01.011',
     },
     {
       referencia:
@@ -355,7 +355,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -370,7 +370,7 @@ export default {
       autores: [
         {
           nombre: 'Carlos Andrés Bonza Reyes',
-          cargo: 'Experto TIC',
+          cargo: 'Experto temático',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -409,7 +409,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

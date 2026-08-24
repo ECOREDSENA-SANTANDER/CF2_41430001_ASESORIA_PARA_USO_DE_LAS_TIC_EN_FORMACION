@@ -40,7 +40,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/6.png')})`}"
           )
           .bloque-texto-g__texto.p-4.p-lg-5
-            p.mb-0 Así, herramientas como plataformas virtuales, wikis o TV web no “enseñan” por sí mismas; su valor radica en la posibilidad de potenciar experiencias didácticas, dependiendo de cómo se diseñen las actividades, los criterios de evaluación y las evidencias de aprendizaje, así como del contexto en el que se implementan (conectividad, disponibilidad de tiempo y diversidad del grupo).
+            p.mb-0 Así, herramientas como plataformas virtuales, #[em wikis] o TV web no “enseñan” por sí mismas; su valor radica en la posibilidad de potenciar experiencias didácticas, dependiendo de cómo se diseñen las actividades, los criterios de evaluación y las evidencias de aprendizaje, así como del contexto en el que se implementan (conectividad, disponibilidad de tiempo y diversidad del grupo).
             br
             br
             p.mb-0 Por esta razón, la asesoría en TIC exige un sólido criterio pedagógico y es por ello por lo que, se hace fundamental seleccionar tecnologías que respondan a necesidades formativas concretas como: 
@@ -70,11 +70,10 @@
           h5 Figura 1.
           | Esquema de mediación pedagógica con TIC y sus interacciones clave en el aprendizaje
         .row.justify-content-center.align-items-stretch.mb-0
-          .col-lg-6
-            img.h-100(src='@/assets/curso/tema1/7.svg', alt='Representa un modelo de mediación pedagógica con TIC donde el aprendizaje se construye a partir de interacciones bidireccionales entre el aprendiz, las tecnologías y el tutor. Estas relaciones se articulan con el contenido como eje orientador y se proyectan hacia la comunidad, evidenciando un proceso formativo conectado, dinámico y contextualizado.')
-          .col-lg-6.d-none.d-lg-block
-            img.h-100(src='@/assets/curso/tema1/8.png', alt='Representa un modelo de mediación pedagógica con TIC donde el aprendizaje se construye a partir de interacciones bidireccionales entre el aprendiz, las tecnologías y el tutor. Estas relaciones se articulan con el contenido como eje orientador y se proyectan hacia la comunidad, evidenciando un proceso formativo conectado, dinámico y contextualizado.')
-
+          .col-lg-12
+            .bg15.p-4
+              img.img-a.img-t(src='@/assets/curso/tema1/7.svg', alt='Representa un modelo de mediación pedagógica con TIC donde el aprendizaje se construye a partir de interacciones bidireccionales entre el aprendiz, las tecnologías y el tutor. Estas relaciones se articulan con el contenido como eje orientador y se proyectan hacia la comunidad, evidenciando un proceso formativo conectado, dinámico y contextualizado.')
+          
     .titulo.mb-5(data-aos="fade-left")
       .titulo__icono
       .titulo__texto
@@ -114,7 +113,7 @@
             .col-lg-5.col-md-8.col-10.order-lg-1.order-md-2.order-2
               img(src='@/assets/curso/tema1/11.png')
             .col-lg-6.mb-lg-0.mb-4.order-lg-2.order-md-1.order-1
-              p.mb-0 Constituye el eje dinamizador del aprendizaje en entornos mediados por TIC. Se manifiesta en tres niveles: la interacción aprendiz–contenido, que ocurre cuando el aprendiz accede, comprende y practica mediante recursos educativos; la interacción aprendiz–tutor, que se evidencia en la orientación, el seguimiento y la retroalimentación oportuna; y la interacción aprendiz–aprendiz, que potencia el trabajo colaborativo, el pensamiento crítico y la construcción colectiva de conocimiento a través de espacios como foros, wikis o actividades de coevaluación.
+              p.mb-0 Constituye el eje dinamizador del aprendizaje en entornos mediados por TIC. Se manifiesta en tres niveles: la interacción aprendiz–contenido, que ocurre cuando el aprendiz accede, comprende y practica mediante recursos educativos; la interacción aprendiz–tutor, que se evidencia en la orientación, el seguimiento y la retroalimentación oportuna; y la interacción aprendiz–aprendiz, que potencia el trabajo colaborativo, el pensamiento crítico y la construcción colectiva de conocimiento a través de espacios como foros, #[em wikis] o actividades de coevaluación.
           .row.justify-content-center.align-items-center(titulo="Presencia")
             .col-lg-5.col-md-8.col-10.order-lg-1.order-md-2.order-2
               img(src='@/assets/curso/tema1/12.png')
@@ -152,7 +151,7 @@
                   figure
                     img.d-none.d-lg-block(src="@/assets/curso/tema1/15.svg", alt="alt")
                 .col
-                  p.mb-0 Primero, debe existir un propósito formativo claro: definir qué se espera que el estudiante aprenda y cómo lo va a demostrar.
+                  p.mb-0 Primero, debe existir un propósito formativo claro: definir qué se espera que el aprendiz aprenda y cómo lo va a demostrar.
             .crd.crd--avatarHorizontal.py-4
               .row.align-items-center
                 .col-auto
@@ -166,7 +165,7 @@
                   figure
                     img.d-none.d-lg-block(src="@/assets/curso/tema1/17.svg", alt="alt")
                 .col
-                  p.mb-0 Tercero, la evaluación debe estar alineada con lo anterior, valorando el desempeño del estudiante según los objetivos planteados.
+                  p.mb-0 Tercero, la evaluación debe estar alineada con lo anterior, valorando el desempeño del aprendiz según los objetivos planteados.
           .col-lg-4.sob1.d-none.d-lg-block
             img.img-t(src="@/assets/curso/tema1/18.svg", alt="alt")
 
