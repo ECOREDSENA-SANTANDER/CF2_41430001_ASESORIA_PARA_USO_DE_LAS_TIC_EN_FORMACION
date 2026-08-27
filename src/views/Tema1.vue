@@ -10,26 +10,26 @@
     .bg1.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/1.png', alt='')
+          img(src='@/assets/curso/tema1/1.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/2.svg', alt='')
+            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/2.svg')
             p.mb-0 Las Tecnologías de la Información y la Comunicación (TIC) se entienden como un conjunto de herramientas que no solo “transmiten” información, sino que también configuran la manera en que el aprendiz se aproxima al conocimiento, lo practica, lo representa y lo comparte. En este sentido, actúan como mediadoras cuando facilitan interacciones clave: 
     
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg2.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/3.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/3.svg')
           h4.mb-4.text-center Aprendiz y contenido
           p.mb-0.text-center A través de simuladores, recursos multimedia y guías interactivas.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg2.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/4.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/4.svg')
           h4.mb-4.text-center Aprendiz y tutor
           p.mb-0.text-center Mediante orientaciones, retroalimentación y seguimiento.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg2.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/5.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/5.svg')
           h4.mb-4.text-center Aprendiz y aprendiz
           p.mb-0.text-center Por medio de la colaboración, la coevaluación y la construcción conjunta del conocimiento.
           
@@ -77,12 +77,12 @@
     .titulo.mb-5(data-aos="fade-left")
       .titulo__icono
       .titulo__texto
-        img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+        img(:src="require('@/assets/curso/tema1/sub.svg')")
         h3.mb-0 Las TIC como mediadoras del aprendizaje
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema1/9.svg')
         .row.justify-content-center.g-0
           .col-lg-12
             .tarjeta.bg4.p-4.rounded-0.h-100
@@ -132,7 +132,7 @@
           .col-lg-6
             img(src='@/assets/curso/tema1/13.svg', alt='Organiza la mediación TIC como un eje central del proceso formativo, estructurado en tres componentes: mediación didáctica, interacción y presencia. Cada uno integra elementos clave como el diseño pedagógico, las relaciones entre actores del aprendizaje y las condiciones de acompañamiento, evidenciando un enfoque articulado para favorecer la construcción del conocimiento.')
           .col-lg-6.d-none.d-lg-block
-            img(src='@/assets/curso/tema1/14.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/14.png')
     
     
     separador
@@ -149,25 +149,25 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/15.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/15.svg")
                 .col
                   p.mb-0 Primero, debe existir un propósito formativo claro: definir qué se espera que el aprendiz aprenda y cómo lo va a demostrar.
             .crd.crd--avatarHorizontal.py-4
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/16.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/16.svg")
                 .col
                   p.mb-0 Segundo, es necesario organizar una secuencia didáctica coherente, que incluya momentos de inicio (activación de saberes previos), desarrollo (comprensión y práctica), aplicación (uso en situaciones concretas) y cierre (reflexión y consolidación).
             .crd.crd--avatarHorizontal.crd--last.py-4
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/17.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/17.svg")
                 .col
                   p.mb-0 Tercero, la evaluación debe estar alineada con lo anterior, valorando el desempeño del aprendiz según los objetivos planteados.
           .col-lg-4.sob1.d-none.d-lg-block
-            img.img-t(src="@/assets/curso/tema1/18.svg", alt="alt")
+            img.img-t(src="@/assets/curso/tema1/18.svg")
 
     .cajon.color-acento-contenido.p-lg-5.p-4.mb-0(data-aos="fade-left")
       p.mb-0 Además, es importante equilibrar tres aspectos: lo pedagógico (cómo enseñar), lo disciplinar (qué enseñar) y lo tecnológico (con qué herramientas). La tecnología puede utilizarse de distintas maneras, desde apoyar tareas ya existentes hasta transformar completamente la forma en que se aprende. Por ello, no se trata solo de usar herramientas digitales, sino de emplearlas con sentido pedagógico para mejorar realmente el aprendizaje.

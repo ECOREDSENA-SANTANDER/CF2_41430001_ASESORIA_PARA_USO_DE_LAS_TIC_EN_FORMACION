@@ -28,7 +28,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
+        img(src='@/assets/curso/tema2/2.svg')
       .col-lg-8
         .bg5.p-lg-5.p-4
           p.mb-4 Su principal fortaleza radica en la flexibilidad de tiempo y lugar, así como en la posibilidad de ampliar el acceso a la educación. Sin embargo, su efectividad depende en gran medida de una adecuada mediación pedagógica, que garantice acompañamiento, orientaciones claras, criterios de evaluación visibles y retroalimentación constante.
@@ -40,15 +40,15 @@
           .col-lg-8
             .row.justify-content-between.mb-0
               .col-lg-3.col-md-4.mb-lg-0.mb-4
-                img.img-t.img-a.mb-4(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
+                img.img-t.img-a.mb-4(src='@/assets/curso/tema2/3.svg')
                 .bg9.p-2
                   h5.mb-0.text-center Flexibilidad
               .col-lg-3.col-md-4.mb-lg-0.mb-4
-                img.img-t.img-a.mb-4(src='@/assets/curso/tema2/4.svg' alt='AvatarTop')
+                img.img-t.img-a.mb-4(src='@/assets/curso/tema2/4.svg')
                 .bg9.p-2
                   h5.mb-0.text-center Escalabilidad
               .col-lg-3.col-md-4.mb-lg-0.mb-4
-                img.img-t.img-a.mb-4(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
+                img.img-t.img-a.mb-4(src='@/assets/curso/tema2/5.svg')
                 .bg9.p-2
                   h5.mb-0.text-center Mediación efectiva
 
@@ -104,7 +104,7 @@
                 td Demostrar el aprendizaje.
                 td Portafolio, informe, entrega evaluativa.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/7.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema2/7.png')
 
     p.mb-5 Estrategias de diseño en la formación combinada:
     
@@ -135,10 +135,10 @@
     .bg1.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/11.png', alt='')
+          img(src='@/assets/curso/tema2/11.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/12.svg', alt='')
+            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/12.svg')
             p.mb-0 Por ejemplo, un #[em blog] puede utilizarse como portafolio digital para evidenciar avances y promover la reflexión, haciendo visible el aprendizaje. Una #[em wiki] facilita la construcción colectiva del conocimiento, al funcionar como repositorio de contenidos o manual de procedimientos en constante actualización. Por su parte, las redes sociales pueden convertirse en espacios de interacción, divulgación y aprendizaje informal, siempre que su uso esté orientado por un propósito pedagógico claro, normas de participación definidas y criterios de seguimiento.
 
     .cajon.color-acento-botones.p-lg-5.p-4.mb-0(data-aos="fade-left")

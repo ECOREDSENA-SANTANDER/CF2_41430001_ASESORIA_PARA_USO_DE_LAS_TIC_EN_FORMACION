@@ -8,7 +8,7 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="Sintetiza la ejecución del plan de formación en cinco aspectos clave: fundamentos pedagógicos, modalidades con TIC, rol del tutor, uso de herramientas con una ruta de diseño, y criterios transversales como derechos de autor, seguridad y accesibilidad, todos orientados a garantizar una mediación formativa coherente y de calidad.")
       .col-auto
         a.anexo.mb-0(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

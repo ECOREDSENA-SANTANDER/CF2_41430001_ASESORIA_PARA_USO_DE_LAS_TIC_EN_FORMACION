@@ -10,16 +10,16 @@
     .bg1.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema3/1.png', alt='')
+          img(src='@/assets/curso/tema3/1.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema3/2.svg', alt='')
+            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema3/2.svg')
             p.mb-0 En entornos mediados por TIC, el tutor no se limita a “resolver dudas”: diseña rutas, acompaña procesos, genera comunidad, administra tiempos y promueve autonomía. La labor combina decisiones pedagógicas y acciones de acompañamiento que mantienen el rumbo del aprendizaje.
 
     .titulo.mb-5(data-aos="fade-right")
       .titulo__icono
       .titulo__texto
-        img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+        img(:src="require('@/assets/curso/tema1/sub.svg')")
         h3.mb-0 Roles del tutor en entornos mediados por TIC 
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -27,7 +27,7 @@
         .bg1.p-lg-5.p-4.d-none.d-md-block
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
-              img.img-t.img-a(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen')
+              img.img-t.img-a(src='@/assets/curso/tema3/3.svg')
             .tarjeta.color-acento-botones.p-4(x="19%" y="15%" numero="1")
               .h5.mb-2 Rol pedagógico
               ul.lista-ul.mb-0
@@ -97,7 +97,7 @@
         .bg1.p-lg-5.p-4.d-block.d-md-none
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
-              img.img-t.img-a(src='@/assets/curso/tema3/4.svg', alt='Texto que describa la imagen')
+              img.img-t.img-a(src='@/assets/curso/tema3/4.svg')
             .tarjeta.color-acento-botones.p-4(x="5%" y="35%" numero="1")
               .h5.mb-2 Rol pedagógico
               ul.lista-ul.mb-0
@@ -244,7 +244,7 @@
                 td ¿Cómo se accede?
                 td Facilita el uso tecnológico.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/5.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema3/5.png')
 
 
     separador
@@ -256,15 +256,15 @@
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg2.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/6.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/6.svg')
           p.mb-0 La planificación constituye el punto de partida. El tutor define con precisión el propósito de aprendizaje (qué se espera lograr), los tiempos (ritmo de trabajo), las evidencias (productos o desempeños verificables) y los criterios de evaluación (cómo se valorará la calidad). Esta planificación se traduce en una ruta clara para el aprendiz, compuesta por actividades secuenciadas, recursos pertinentes y un calendario realista.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg2.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/7.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/7.svg')
           p.mb-0 A partir de ello, la comunicación se convierte en una competencia clave. Instrucciones claras, pasos organizados, ejemplos de productos esperados y criterios visibles desde el inicio reducen la incertidumbre y evitan interpretaciones erróneas. De este modo, el aprendiz comprende qué hacer, cómo hacerlo y bajo qué estándares será evaluado.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg2.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/8.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema3/8.svg')
           p.mb-0 Otra práctica esencial es la retroalimentación oportuna y focalizada. Más que emitir juicios generales, el tutor reconoce avances y orienta mejoras priorizando pocos aspectos de alto impacto. Esto evita la sobrecarga de información y favorece la motivación.
 
     .bloque-texto-g.color-primario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-right")
@@ -306,7 +306,7 @@
     .bg1.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-9.col-12.mb-lg-0.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema3/10.png', alt='')
+          img(src='@/assets/curso/tema3/10.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
             p.mb-4 Cuando el tutor vincula sus comentarios con criterios explícitos, como por ejemplo claridad del procedimiento, calidad de la argumentación o cumplimiento de normas técnicas, el aprendiz comprende con mayor precisión cómo mejorar su desempeño.
@@ -317,7 +317,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema3/11.png', alt='')
+        img(src='@/assets/curso/tema3/11.png')
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4

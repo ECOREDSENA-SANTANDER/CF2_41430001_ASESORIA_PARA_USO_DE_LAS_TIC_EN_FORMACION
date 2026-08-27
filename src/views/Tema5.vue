@@ -10,10 +10,10 @@
     .bg1.mb-0
       .row.justify-content-center.align-items-center
         .col-lg-5.col-12.mb-lg-0.mb-0.d-none.d-lg-block(data-aos="fade-right")
-          img(src='@/assets/curso/tema5/1.png', alt='')
+          img(src='@/assets/curso/tema5/1.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema5/2.svg', alt='')
+            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema5/2.svg')
             p.mb-4 Más allá de elegir modalidades y herramientas, la asesoría TIC requiere criterios transversales que garanticen la calidad, la pertinencia y la ética del proceso formativo. Estos criterios operan como condiciones habilitantes: hacen posible que la mediación pedagógica funcione de manera efectiva y sostenible. Entre los más relevantes se encuentran el uso legal de los contenidos, la seguridad digital y la accesibilidad e inclusión.
             p.mb-0 Cuando estos aspectos no se contemplan, incluso una propuesta bien diseñada puede perder efectividad. Por ejemplo, un recurso puede ser pedagógicamente valioso pero inviable si vulnera derechos de autor; una actividad puede generar rechazo si expone innecesariamente a los participantes; o un estudiante puede quedar excluido si no cuenta con las condiciones técnicas para acceder al material. Por ello, la asesoría TIC no solo organiza el “qué” y el “cómo” enseñar, sino también “en qué condiciones” se garantiza un aprendizaje seguro, equitativo y responsable.
 
@@ -85,7 +85,7 @@
               i.fas.fa-globe
               p.mb-0 Uso responsable de datos personales, imágenes y producciones académicas.
         .col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/tema5/3.png' alt='AvatarTop')
+          img(src='@/assets/curso/tema5/3.png')
 
     .cajon.color-acento-botones.p-lg-5.p-4.mb-0(data-aos="fade-left")
       p.mb-4 Además, es fundamental garantizar el consentimiento informado cuando se utilicen datos o evidencias de los aprendices, así como priorizar canales institucionales para la comunicación y entrega de actividades. Esto permite delimitar lo personal de lo académico y reducir riesgos de exposición.
@@ -101,19 +101,19 @@
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-0(data-aos="fade-right")
       .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img.img-a.img-t(src='@/assets/curso/tema5/4.svg' alt='')
+          img.img-a.img-t(src='@/assets/curso/tema5/4.svg')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Elaborar materiales claros y estructurados (uso de títulos, listas, lenguaje sencillo).
       .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img.img-a.img-t(src='@/assets/curso/tema5/5.svg' alt='')
+          img.img-a.img-t(src='@/assets/curso/tema5/5.svg')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Garantizar buena legibilidad (contraste, tamaño de fuente).
       .col-md-6.col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img.img-a.img-t(src='@/assets/curso/tema5/6.svg' alt='')
+          img.img-a.img-t(src='@/assets/curso/tema5/6.svg')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Incluir texto alternativo en imágenes y subtítulos en videos.
@@ -121,13 +121,13 @@
     .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-right")
       .col-12.col-md-6.mb-lg-0.mb-4
         .tarjeta-avatar
-          img.img-a.img-t(src='@/assets/curso/tema5/4.svg' alt='')
+          img.img-a.img-t(src='@/assets/curso/tema5/4.svg')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Ofrecer recursos descargables o versiones livianas.
       .col-12.col-md-6.mb-lg-0.mb-4
         .tarjeta-avatar
-          img.img-a.img-t(src='@/assets/curso/tema5/5.svg' alt='')
+          img.img-a.img-t(src='@/assets/curso/tema5/5.svg')
           .tarjeta.bg14
             .p-4
               p.mb-0.text-center.mt-lg-3 Diseñar actividades con opciones equivalentes de entrega (audio, texto, video).

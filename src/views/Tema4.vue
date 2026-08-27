@@ -19,22 +19,22 @@
     .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg12.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/2.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/2.svg')
           h4.mb-4.text-center Propósito
           p.mb-0 Define el aprendizaje que se espera alcanzar, orientando el sentido de la actividad.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg12.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/3.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/3.svg')
           h4.mb-4.text-center Actividad
           p.mb-0 Describe las acciones que el aprendiz debe realizar para lograr el propósito planteado.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg12.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/4.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/4.svg')
           h4.mb-4.text-center Evidencia
           p.mb-0 Corresponde al producto o desempeño mediante el cual el aprendiz demuestra lo aprendido.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg12.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/5.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema4/5.svg')
           h4.mb-4.text-center Retroalimentación
           p.mb-0 Brinda orientaciones que permiten reconocer aciertos, identificar aspectos por mejorar y fortalecer el proceso de aprendizaje.
 
@@ -44,41 +44,41 @@
       .col-lg-12
         .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
           .col-lg-3.d-none.d-lg-block
-            img.img-t(src="@/assets/curso/tema4/6.png", alt="alt")
+            img.img-t(src="@/assets/curso/tema4/6.png")
           .col-lg-9
             SlyderF(columnas="col-md-6 col-xl-4")
               .tarjeta.tarjeta--slyder.b2.p-3
                 .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
-                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/7.svg' alt='AvatarTop')
+                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/7.svg')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 #[em Wikis]
                 p.mb-0 Son espacios de construcción colaborativa. Permiten que varios aprendices trabajen juntos en la creación de contenidos como manuales, glosarios o proyectos. Favorecen el trabajo en equipo, la organización de ideas y la mejora continua de los productos. 
               .tarjeta.tarjeta--slyder.b2.p-3
                 .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
-                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/8.svg' alt='AvatarTop')
+                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/8.svg')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 #[em Blogs]
                 p.mb-0 Funcionan como portafolios de aprendizaje. En ellos, el aprendiz puede publicar sus avances, reflexiones y evidencias. Ayudan a desarrollar la capacidad de análisis, autoevaluación y comunicación de ideas. 
               .tarjeta.tarjeta--slyder.b2.p-3
                 .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
-                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/9.svg' alt='AvatarTop')
+                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/9.svg')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 Redes sociales
                 p.mb-0 Facilitan la interacción, el intercambio de ideas y la construcción de comunidad. Su uso debe ser orientado por normas claras, con el fin de promover la participación respetuosa y el aprendizaje colaborativo. 
               .tarjeta.tarjeta--slyder.b2.p-3
                 .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
-                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/10.svg' alt='AvatarTop')
+                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/10.svg')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 #[em Software] educativo
                 p.mb-0 Incluye simuladores, plataformas de práctica y aplicaciones interactivas. Permite aprender haciendo, practicar habilidades y recibir retroalimentación inmediata, especialmente en actividades que requieren repetición o precisión. 
               .tarjeta.tarjeta--slyder.b2.p-3
                 .row.justify-content-center.align-items-center.mb-4.mt-3
                   .col-12
-                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/11.svg' alt='AvatarTop')
+                    img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/11.svg')
                 .bg44.p-1.mb-4
                   h4.text-center.text-white.mb-0.ps-2.pe-2 #[em Mass media] y TV web
                 p.mb-0 Son recursos como videos, programas o contenidos digitales que apoyan la explicación de temas. Su valor aumenta cuando se acompañan de actividades que permitan aplicar lo aprendido y evitar un aprendizaje pasivo. 
@@ -100,15 +100,15 @@
             .bgw.p-lg-5.p-4.h-100
               .row.justify-content-center.align-items-center.mt-lg-2
                 .col-12
-                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/13.svg' alt='AvatarTop')
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/13.svg')
                   p.mb-0 El modelo ADDIE (Analizar – Diseñar – Desarrollar – Implementar – Evaluar)
           .col-lg-4.d-none.d-lg-block
-            img(src='@/assets/curso/tema4/12.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema4/12.png')
           .col-lg-4.col-md-6.mb-lg-0.mb-4
             .bgw.p-lg-5.p-4.h-100
               .row.justify-content-center.align-items-center.mt-lg-2
                 .col-12
-                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/13.svg' alt='AvatarTop')
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/13.svg')
                   p.mb-0 Ofrece una estructura clara y funcional para planear, ejecutar y mejorar experiencias formativas en ciclos continuos.
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
