@@ -15,7 +15,7 @@
           .p-4
             img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema5/2.svg')
             p.mb-4 Más allá de elegir modalidades y herramientas, la asesoría TIC requiere criterios transversales que garanticen la calidad, la pertinencia y la ética del proceso formativo. Estos criterios operan como condiciones habilitantes: hacen posible que la mediación pedagógica funcione de manera efectiva y sostenible. Entre los más relevantes se encuentran el uso legal de los contenidos, la seguridad digital y la accesibilidad e inclusión.
-            p.mb-0 Cuando estos aspectos no se contemplan, incluso una propuesta bien diseñada puede perder efectividad. Por ejemplo, un recurso puede ser pedagógicamente valioso pero inviable si vulnera derechos de autor; una actividad puede generar rechazo si expone innecesariamente a los participantes; o un estudiante puede quedar excluido si no cuenta con las condiciones técnicas para acceder al material. Por ello, la asesoría TIC no solo organiza el “qué” y el “cómo” enseñar, sino también “en qué condiciones” se garantiza un aprendizaje seguro, equitativo y responsable.
+            p.mb-0 Cuando estos aspectos no se contemplan, incluso una propuesta bien diseñada puede perder efectividad. Por ejemplo, un recurso puede ser pedagógicamente valioso pero inviable si vulnera derechos de autor; una actividad puede generar rechazo si expone innecesariamente a los participantes; o un aprendiz puede quedar excluido si no cuenta con las condiciones técnicas para acceder al material. Por ello, la asesoría TIC no solo organiza el “qué” y el “cómo” enseñar, sino también “en qué condiciones” se garantiza un aprendizaje seguro, equitativo y responsable.
 
 
     separador
