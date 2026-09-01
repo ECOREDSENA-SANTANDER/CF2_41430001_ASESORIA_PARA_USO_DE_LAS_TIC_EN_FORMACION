@@ -151,7 +151,7 @@
                   figure
                     img.d-none.d-lg-block(src="@/assets/curso/tema1/15.svg")
                 .col
-                  p.mb-0 Primero, debe existir un propósito formativo claro: definir qué se espera que el aprendiz aprenda y cómo lo va a demostrar.
+                  p.mb-0 Primero, debe existir un propósito formativo claro: definir qué se espera que el aprendiz logre y cómo lo va a demostrar. 
             .crd.crd--avatarHorizontal.py-4
               .row.align-items-center
                 .col-auto
